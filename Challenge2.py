@@ -12,7 +12,6 @@
 # - Revisaré el ejercicio en directo desde Twitch el lunes siguiente al de su publicación.
 # - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
 
-
 f = [0, 1]
 while len(f) < 50:
     f.append(f[-1] + f[-2])
