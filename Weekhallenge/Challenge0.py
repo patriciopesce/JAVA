@@ -15,10 +15,10 @@
 #- Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
 
 for num in range(1, 101):
-    if num %3 == 0:
-        print("fizz")
+    if num % 3 == 0 and num % 5 == 0:
+        print("fizzbuzz")
     elif num % 5 == 0:
         print("buzz")
-    elif num % 3 == 0 and num % 5 == 0:
-        print("fizzbuzz")
+    elif num %3 == 0:
+        print("fizz")
     print(num)
